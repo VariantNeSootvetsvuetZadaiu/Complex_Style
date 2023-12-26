@@ -1,0 +1,52 @@
+\doxysection{mycomplex.\+h}
+\hypertarget{mycomplex_8h_source}{}\label{mycomplex_8h_source}\index{34/mycomplex.h@{34/mycomplex.h}}
+\mbox{\hyperlink{mycomplex_8h}{См. документацию.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \`{}\`{}\`{}cpp}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#ifndef\ \_MY\_COMPLEX\_H\_}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#define\ \_MY\_COMPLEX\_H\_}}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{class\ }Complex\ \{}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keywordtype}{double}\ Re;\ }
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keywordtype}{double}\ Im;\ }
+\DoxyCodeLine{00019\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00025\ \ \ \ \ Complex(\textcolor{keywordtype}{double}\ aRe\ =\ 0,\ \textcolor{keywordtype}{double}\ aIm\ =\ 0);}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00031\ \ \ \ \ Complex(\textcolor{keyword}{const}\ Complex\&);}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00036\ \ \ \ \ \string~Complex();}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00043\ \ \ \ \ \textcolor{keywordtype}{void}\ Set(\textcolor{keywordtype}{double}\ aRe,\ \textcolor{keywordtype}{double}\ aIm\ =\ 0);}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00049\ \ \ \ \ \textcolor{keyword}{operator}\ double();}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00055\ \ \ \ \ \textcolor{keywordtype}{double}\ abs();}
+\DoxyCodeLine{00056\ }
+\DoxyCodeLine{00063\ \ \ \ \ \textcolor{keyword}{friend}\ istream\&\ \mbox{\hyperlink{mycomplex_8cpp_a42f0189696ad5089d4ecdb84923ebd88}{operator>>}}(istream\&,\ Complex\&);}
+\DoxyCodeLine{00064\ }
+\DoxyCodeLine{00071\ \ \ \ \ \textcolor{keyword}{friend}\ ostream\&\ \mbox{\hyperlink{mycomplex_8cpp_a087b35621ae8bcdc365a7329a86c847a}{operator<<}}(ostream\&,\ \textcolor{keyword}{const}\ Complex\&);}
+\DoxyCodeLine{00072\ }
+\DoxyCodeLine{00078\ \ \ \ \ Complex\ operator+(\textcolor{keyword}{const}\ Complex\&);}
+\DoxyCodeLine{00079\ }
+\DoxyCodeLine{00085\ \ \ \ \ Complex\ operator-\/(\textcolor{keyword}{const}\ Complex\&);}
+\DoxyCodeLine{00086\ }
+\DoxyCodeLine{00092\ \ \ \ \ Complex\ operator+(\textcolor{keyword}{const}\ \textcolor{keywordtype}{double}\&);}
+\DoxyCodeLine{00093\ }
+\DoxyCodeLine{00100\ \ \ \ \ \textcolor{keyword}{friend}\ Complex\ operator+(\textcolor{keyword}{const}\ \textcolor{keywordtype}{double}\&,\ \textcolor{keyword}{const}\ Complex\&);}
+\DoxyCodeLine{00101\ }
+\DoxyCodeLine{00107\ \ \ \ \ Complex\ operator-\/(\textcolor{keyword}{const}\ \textcolor{keywordtype}{double}\&);}
+\DoxyCodeLine{00108\ }
+\DoxyCodeLine{00115\ \ \ \ \ \textcolor{keyword}{friend}\ Complex\ operator-\/(\textcolor{keyword}{const}\ \textcolor{keywordtype}{double}\&,\ \textcolor{keyword}{const}\ Complex\&);}
+\DoxyCodeLine{00116\ }
+\DoxyCodeLine{00122\ \ \ \ \ Complex\ operator*(\textcolor{keyword}{const}\ Complex\&);}
+\DoxyCodeLine{00123\ }
+\DoxyCodeLine{00129\ \ \ \ \ Complex\ operator*(\textcolor{keyword}{const}\ \textcolor{keywordtype}{double}\&);}
+\DoxyCodeLine{00130\ }
+\DoxyCodeLine{00137\ \ \ \ \ \textcolor{keyword}{friend}\ Complex\ operator*(\textcolor{keyword}{const}\ \textcolor{keywordtype}{double}\&,\ \textcolor{keyword}{const}\ Complex\&);}
+\DoxyCodeLine{00138\ }
+\DoxyCodeLine{00144\ \ \ \ \ Complex\ operator/(\textcolor{keyword}{const}\ \textcolor{keywordtype}{double}\&);}
+\DoxyCodeLine{00145\ }
+
+\end{DoxyCode}

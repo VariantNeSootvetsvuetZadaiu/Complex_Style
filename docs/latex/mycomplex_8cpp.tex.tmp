@@ -1,0 +1,67 @@
+\doxysection{Файл 34/mycomplex.cpp}
+\hypertarget{mycomplex_8cpp}{}\label{mycomplex_8cpp}\index{34/mycomplex.cpp@{34/mycomplex.cpp}}
+
+
+Реализация класса Complex.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include "{}mycomplex.\+h"{}}\newline
+Граф включаемых заголовочных файлов для mycomplex.\+cpp\+:
+% FIG 0
+\doxysubsubsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+istream \& \mbox{\hyperlink{mycomplex_8cpp_a42f0189696ad5089d4ecdb84923ebd88}{operator$>$$>$}} (istream \&stream, Complex \&a)
+\begin{DoxyCompactList}\small\item\em Оператор ввода комплексного числа из потока. \end{DoxyCompactList}\item 
+ostream \& \mbox{\hyperlink{mycomplex_8cpp_a087b35621ae8bcdc365a7329a86c847a}{operator$<$$<$}} (ostream \&stream, Complex \&a)
+\begin{DoxyCompactList}\small\item\em Оператор вывода комплексного числа в поток. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Реализация класса Complex. 
+
+
+
+\doxysubsection{Функции}
+\Hypertarget{mycomplex_8cpp_a087b35621ae8bcdc365a7329a86c847a}\label{mycomplex_8cpp_a087b35621ae8bcdc365a7329a86c847a} 
+\index{mycomplex.cpp@{mycomplex.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!mycomplex.cpp@{mycomplex.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}}
+{\footnotesize\ttfamily ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{stream,  }\item[{Complex \&}]{a }\end{DoxyParamCaption})}
+
+
+
+Оператор вывода комплексного числа в поток. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em stream} & Выходной поток. \\
+\hline
+{\em a} & Объект Complex для вывода. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Выходной поток после операции вывода. 
+\end{DoxyReturn}
+\Hypertarget{mycomplex_8cpp_a42f0189696ad5089d4ecdb84923ebd88}\label{mycomplex_8cpp_a42f0189696ad5089d4ecdb84923ebd88} 
+\index{mycomplex.cpp@{mycomplex.cpp}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!mycomplex.cpp@{mycomplex.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}}
+{\footnotesize\ttfamily istream \& operator$>$$>$ (\begin{DoxyParamCaption}\item[{istream \&}]{stream,  }\item[{Complex \&}]{a }\end{DoxyParamCaption})}
+
+
+
+Оператор ввода комплексного числа из потока. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em stream} & Входной поток. \\
+\hline
+{\em a} & Объект Complex для ввода. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Входной поток после операции ввода. 
+\end{DoxyReturn}

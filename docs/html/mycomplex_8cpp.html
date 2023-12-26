@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>gerasim: Файл 34/mycomplex.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">gerasim
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_5d861f2f5eeb7b1c26f1a78b153bab6b.html">34</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Функции</a>  </div>
+  <div class="headertitle"><div class="title">Файл mycomplex.cpp</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Реализация класса Complex.  
+<a href="#details">Подробнее...</a></p>
+<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;cmath&gt;</code><br />
+<code>#include &quot;<a class="el" href="mycomplex_8h_source.html">mycomplex.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Граф включаемых заголовочных файлов для mycomplex.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="mycomplex_8cpp__incl.png" border="0" usemap="#a34_2mycomplex_8cpp" alt=""/></div>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Функции</h2></td></tr>
+<tr class="memitem:a42f0189696ad5089d4ecdb84923ebd88" id="r_a42f0189696ad5089d4ecdb84923ebd88"><td class="memItemLeft" align="right" valign="top">istream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42f0189696ad5089d4ecdb84923ebd88">operator&gt;&gt;</a> (istream &amp;stream, Complex &amp;a)</td></tr>
+<tr class="memdesc:a42f0189696ad5089d4ecdb84923ebd88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Оператор ввода комплексного числа из потока.  <br /></td></tr>
+<tr class="separator:a42f0189696ad5089d4ecdb84923ebd88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a087b35621ae8bcdc365a7329a86c847a" id="r_a087b35621ae8bcdc365a7329a86c847a"><td class="memItemLeft" align="right" valign="top">ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a087b35621ae8bcdc365a7329a86c847a">operator&lt;&lt;</a> (ostream &amp;stream, Complex &amp;a)</td></tr>
+<tr class="memdesc:a087b35621ae8bcdc365a7329a86c847a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Оператор вывода комплексного числа в поток.  <br /></td></tr>
+<tr class="separator:a087b35621ae8bcdc365a7329a86c847a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Реализация класса Complex. </p>
+</div><h2 class="groupheader">Функции</h2>
+<a id="a087b35621ae8bcdc365a7329a86c847a" name="a087b35621ae8bcdc365a7329a86c847a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a087b35621ae8bcdc365a7329a86c847a">&#9670;&#160;</a></span>operator&lt;&lt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ostream &amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">ostream &amp;</td>          <td class="paramname"><span class="paramname"><em>stream</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Complex &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Оператор вывода комплексного числа в поток. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">stream</td><td>Выходной поток. </td></tr>
+    <tr><td class="paramname">a</td><td>Объект Complex для вывода. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Выходной поток после операции вывода. </dd></dl>
+
+</div>
+</div>
+<a id="a42f0189696ad5089d4ecdb84923ebd88" name="a42f0189696ad5089d4ecdb84923ebd88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42f0189696ad5089d4ecdb84923ebd88">&#9670;&#160;</a></span>operator&gt;&gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">istream &amp; operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype">istream &amp;</td>          <td class="paramname"><span class="paramname"><em>stream</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Complex &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Оператор ввода комплексного числа из потока. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">stream</td><td>Входной поток. </td></tr>
+    <tr><td class="paramname">a</td><td>Объект Complex для ввода. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Входной поток после операции ввода. </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>
